@@ -42,13 +42,7 @@ class LoginScreen extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
-                const Text(
-                  "Login",
-                  style: TextStyle(
-                    fontSize: 34,
-                    fontWeight: FontWeight.w400,
-                  ),
-                ),
+                Text("Login", style: Theme.of(context).textTheme.headline4),
                 const SizedBox(
                   height: 40,
                 ),
@@ -60,10 +54,7 @@ class LoginScreen extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.end,
                       children: <Widget>[
                         TextFormField(
-                          style: const TextStyle(
-                            fontSize: 26,
-                            fontWeight: FontWeight.w400,
-                          ),
+                          style: Theme.of(context).textTheme.bodyText1,
                           decoration: const InputDecoration(
                             label: Text(
                               "Email Address",
@@ -88,10 +79,7 @@ class LoginScreen extends StatelessWidget {
                           },
                         ),
                         TextFormField(
-                          style: const TextStyle(
-                            fontSize: 26,
-                            fontWeight: FontWeight.w400,
-                          ),
+                          style: Theme.of(context).textTheme.bodyText1,
                           obscureText: true,
                           keyboardType: TextInputType.number,
                           decoration: const InputDecoration(
