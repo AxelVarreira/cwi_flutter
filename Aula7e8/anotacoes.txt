@@ -1,0 +1,13 @@
+StreamController 
+  -> Sempre dar dispose() 
+  -> Se criar um "custom" stream, tambem dar dispose()
+  -> A custom stream retorna uma Stream<Tipo> e a palavra return deixa de existir, vira "yield", "async" vira "async*"
+  -> Stream fornece os dados com o Yield e dispara em ordem
+  -> Controller instanciador dos dados e listener
+  -> Sink Responsavel por manipular os dados, adicionar evento na lista do controller
+
+AnimationController 
+  -> Cria animacoes de transicao, precisa apenas de uma duration
+
+Bloc 
+  -> 
