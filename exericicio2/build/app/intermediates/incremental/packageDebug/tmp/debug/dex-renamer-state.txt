@@ -1,4 +1,0 @@
-#Sat Nov 13 10:02:55 BRT 2021
-base.0=/home/axelfelixvarreira/flutter_cwi/exericicio2/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
-renamed.0=classes.dex
-path.0=classes.dex
