@@ -10,4 +10,13 @@ AnimationController
   -> Cria animacoes de transicao, precisa apenas de uma duration
 
 Bloc 
-  -> 
+  -> BlocBuilder atualiza a tela
+  -> BlockProvider prove a variavel para o widget
+  -> BlocCOnsumer consome a variavel
+
+
+Clean Dart: https://github.com/Flutterando/Clean-Dart
+  => Pasta Presenter: Ui e OutPut
+  => Domain: Parte dos negocios da aplicacao, UseCases, Entities, interfaces...
+  => Infra: Implementacao repositorios, services... Interface datasources and drivers...
+  => External: Datasources e Drivers
